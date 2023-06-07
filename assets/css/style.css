@@ -26,7 +26,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     grid-area: gasidebar;
 }
 
-.gridproducto{
+.gridmain{
     background-color: cornflowerblue;
     grid-area: ggrid;
 }
@@ -35,4 +35,19 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     background-color: darkgray;
     grid-area: gfooter;
 }
-  
+
+.conteiner_menu{
+    height: 40px;
+    width: 98%;
+    display: flex;
+    flex-flow: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.conteiner_asidebar{
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
