@@ -23,7 +23,9 @@ body{
     "ggrid"
     "gfooter";
     grid-template-rows: auto auto auto;
+   
 }
+
 .navbar{
     background-color:rgb(35, 33, 32);
     grid-area: gnavbar;
@@ -96,7 +98,7 @@ body{
     height: 170px;
     width: 240px;
     filter: grayscale(100%);
-    transition: filter 0.5s ease;
+    transition: filter 0.8s ease;
 }
 .gridmain_item_card_img:hover{
     filter: grayscale(0%);
@@ -114,7 +116,6 @@ body{
 .asidebar_logo_zoom:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
      
-  
   }
 
 @media (min-width:575px){
@@ -157,4 +158,13 @@ body{
     .asidebar_logo{
         padding-left: 0px;
     }
+    .gridmain_item_card_img{
+        height: 170px;
+        width: 240px;
+        filter: grayscale(100%);
+        transition: filter 0.5s ;
+    }
+    .gridmain_item_card_img:hover{
+        filter: grayscale(0%);
+      }
 }
