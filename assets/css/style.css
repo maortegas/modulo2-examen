@@ -129,6 +129,7 @@ body{
         "gfooter gfooter";
         grid-template-rows: auto auto ;
         justify-content: center;
+        height: 100%;
     }
 
     .asidebar{
@@ -138,7 +139,7 @@ body{
         align-items: center;
         justify-content: flex-start;
         flex-direction: column;
-        height: 89vh;
+        height: 100%;
         padding-top: 25px;
         
     }
